@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 
-body #container #howtotrain #label-list, body #container #howtotrain .main_howtotrain {
+body #container #label-list, body #container .main_howtotrain {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -25,6 +25,7 @@ body #container #howtotrain {
   background-position: center;
   position: relative;
   color: white;
+  width: 100%;
   height: 100vh;
   background-position-y: 0px;
 }
@@ -77,19 +78,19 @@ body #container #howtotrain .header_howtotrain .link a.menu {
     border-radius: 5px;
   }
 }
-body #container #howtotrain .main_howtotrain h1 {
+body #container .main_howtotrain h1 {
   text-transform: uppercase;
   text-align: center;
   margin-bottom: 30px;
 }
-body #container #howtotrain .main_howtotrain p {
+body #container .main_howtotrain p {
   text-align: center;
   width: 40%;
   margin: 0 auto;
   font-size: 10.5px;
   margin-bottom: 80px;
 }
-body #container #howtotrain .main_howtotrain button {
+body #container .main_howtotrain button {
   background-color: transparent;
   border-radius: 5px;
   display: block;
@@ -100,15 +101,15 @@ body #container #howtotrain .main_howtotrain button {
   padding: 10px 8px;
   cursor: pointer;
 }
-body #container #howtotrain .main_howtotrain button:hover {
+body #container .main_howtotrain button:hover {
   background-color: white;
   color: black;
 }
-body #container #howtotrain #label-list {
+body #container #label-list {
   top: 95%;
   transform: translate(-50%, 0);
 }
-body #container #howtotrain #label-list label {
+body #container #label-list label {
   background-color: ghostwhite;
   border-radius: 50%;
   display: inline-block;
@@ -116,14 +117,14 @@ body #container #howtotrain #label-list label {
   margin: 2px;
   opacity: 0.8;
 }
-body #container #welcome {
+body #welcome {
   padding: 5% 10%;
 }
-body #container #welcome h2 {
+body #welcome h2 {
   text-align: center;
   margin: 0px 0px 30px 0px;
 }
-body #container #welcome p {
+body #welcome p {
   width: 80%;
   margin: 0 auto;
   text-align: center;
@@ -131,46 +132,46 @@ body #container #welcome p {
   font-size: 10.5px;
   color: gray;
 }
-body #container #welcome img {
+body #welcome img {
   width: 100%;
 }
-body #container #what_we_do {
+body #what_we_do {
   padding: 0 10%;
   padding-bottom: 5%;
 }
-body #container #what_we_do h2 {
+body #what_we_do h2 {
   text-align: center;
 }
-body #container #what_we_do #container_items {
+body #what_we_do #container_items {
   display: flex;
   flex-wrap: wrap;
   text-align: center;
 }
-body #container #what_we_do #container_items .items {
+body #what_we_do #container_items .items {
   padding: 10px 0px;
   width: 25%;
 }
-body #container #what_we_do #container_items .items img {
+body #what_we_do #container_items .items img {
   width: 30%;
   display: block;
   margin: 0 auto;
   border-radius: 50%;
 }
-body #container #what_we_do #container_items .items p {
+body #what_we_do #container_items .items p {
   color: gray;
   font-size: 12.5px;
 }
 @media screen and (max-width: 992px) {
-  body #container #what_we_do #container_items .items {
+  body #what_we_do #container_items .items {
     width: 50%;
   }
 }
 @media screen and (max-width: 576px) {
-  body #container #what_we_do #container_items .items {
+  body #what_we_do #container_items .items {
     width: 100%;
   }
 }
-body #container #our_statics {
+body #our_statics {
   color: white;
   width: 100%;
   padding: 4% 0;
@@ -179,66 +180,66 @@ body #container #our_statics {
   background-size: cover;
   background-position: center;
 }
-body #container #our_statics h2 {
+body #our_statics h2 {
   text-align: center;
 }
-body #container #our_statics #content {
+body #our_statics #content {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   padding: 0 10%;
 }
-body #container #our_statics #content .infor {
+body #our_statics #content .infor {
   text-align: center;
 }
-body #container #our_statics #content .infor span {
+body #our_statics #content .infor span {
   font-size: 35px;
 }
-body #container #our_statics #content .infor p {
+body #our_statics #content .infor p {
   font-size: 8.5px;
 }
 @media screen and (max-width: 992px) {
-  body #container #our_statics #content .infor {
+  body #our_statics #content .infor {
     width: 50%;
     flex-wrap: wrap;
   }
 }
 @media screen and (max-width: 576px) {
-  body #container #our_statics #content .infor {
+  body #our_statics #content .infor {
     width: 100%;
     flex-wrap: wrap;
   }
 }
-body #container #pet_services {
+body #pet_services {
   padding: 5% 10%;
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(245, 238, 238);
 }
-body #container #pet_services #right {
+body #pet_services #right {
   text-align: left;
   width: 35%;
   padding: 10px;
 }
-body #container #pet_services #right h2 {
+body #pet_services #right h2 {
   margin-top: 0px;
   font-weight: bold;
 }
-body #container #pet_services #right p {
+body #pet_services #right p {
   font-size: 10.5px;
   color: gray;
 }
 @media screen and (max-width: 576px) {
-  body #container #pet_services #right {
+  body #pet_services #right {
     width: 100%;
   }
 }
-body #container #pet_services #left {
+body #pet_services #left {
   width: 65%;
   display: flex;
   flex-wrap: wrap;
 }
-body #container #pet_services #left .item_pet {
+body #pet_services #left .item_pet {
   width: 48%;
   margin: 1%;
   padding: 5px 0px;
@@ -247,33 +248,33 @@ body #container #pet_services #left .item_pet {
   border-radius: 5px;
   cursor: pointer;
 }
-body #container #pet_services #left .item_pet i {
+body #pet_services #left .item_pet i {
   color: orange;
   font-size: 1.5em;
 }
 @media screen and (max-width: 576px) {
-  body #container #pet_services #left .item_pet i {
+  body #pet_services #left .item_pet i {
     margin-left: 3%;
   }
 }
-body #container #pet_services #left .item_pet p {
+body #pet_services #left .item_pet p {
   font-size: 10.5px;
   color: gray;
 }
 @media screen and (max-width: 576px) {
-  body #container #pet_services #left .item_pet {
+  body #pet_services #left .item_pet {
     width: 100%;
   }
 }
-body #container #pet_services #left .item_pet:hover {
+body #pet_services #left .item_pet:hover {
   box-shadow: 5px 5px 5px 5px rgb(226, 216, 216);
 }
 @media screen and (max-width: 576px) {
-  body #container #pet_services #left {
+  body #pet_services #left {
     width: 100%;
   }
 }
-body #container #testtimonials {
+body #testtimonials {
   background-image: url("../img/bg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -281,42 +282,42 @@ body #container #testtimonials {
   text-align: center;
   padding: 5% 0;
 }
-body #container #testtimonials h2 {
+body #testtimonials h2 {
   color: white;
 }
-body #container #testtimonials .content {
+body #testtimonials .content {
   padding: 5px 10px;
   display: flex;
   width: 80%;
   margin: 0 auto;
 }
-body #container #testtimonials .content p {
+body #testtimonials .content p {
   color: white;
   font-size: 12.5px;
   margin-bottom: 10%;
 }
-body #container #testtimonials .content .item {
+body #testtimonials .content .item {
   padding: 5px 10px;
 }
 @media screen and (max-width: 576px) {
-  body #container #testtimonials .content .item {
+  body #testtimonials .content .item {
     width: 100%;
   }
 }
-body #container #testtimonials .content img {
+body #testtimonials .content img {
   border-radius: 50%;
   width: 70px;
 }
-body #container #testtimonials .content h4 {
+body #testtimonials .content h4 {
   color: darkorange;
   margin-left: 25%;
 }
 @media screen and (max-width: 576px) {
-  body #container #testtimonials .content {
+  body #testtimonials .content {
     flex-wrap: wrap;
   }
 }
-body #container #our_blog {
+body #our_blog {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto auto;
@@ -324,63 +325,63 @@ body #container #our_blog {
   margin-top: 5%;
   padding: 0 5%;
 }
-body #container #our_blog h2 {
+body #our_blog h2 {
   grid-area: 1/1/2/4;
   text-align: center;
 }
 @media screen and (max-width: 576px) {
-  body #container #our_blog h2 {
+  body #our_blog h2 {
     grid-area: 1/1/2/2;
   }
 }
-body #container #our_blog img {
+body #our_blog img {
   width: 100%;
   border-radius: 3px;
   margin-bottom: -7px;
 }
-body #container #our_blog .item:hover {
+body #our_blog .item:hover {
   box-shadow: 5px 0px 2px 2px rgb(240, 234, 234);
 }
-body #container #our_blog .item p {
+body #our_blog .item p {
   color: gray;
 }
-body #container #our_blog .content, body #container #our_blog .item3 {
+body #our_blog .content, body #our_blog .item3 {
   border: 1px solid rgb(224, 224, 235);
   padding: 0 5%;
   border-radius: 3px;
 }
-body #container #our_blog .item3 p {
+body #our_blog .item3 p {
   color: darkorange;
 }
-body #container #our_blog a {
+body #our_blog a {
   color: darkorange;
   display: block;
   margin-bottom: 15px;
   font-weight: bold;
 }
 @media screen and (max-width: 576px) {
-  body #container #our_blog {
+  body #our_blog {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto auto auto;
   }
 }
-body #container iframe {
+body iframe {
   width: 100%;
   margin-top: 5%;
 }
-body #container #contact_us {
+body #contact_us {
   padding: 5% 5%;
 }
-body #container #contact_us h2 {
+body #contact_us h2 {
   text-align: center;
   margin-bottom: 35px;
 }
-body #container #contact_us .content {
+body #contact_us .content {
   display: flex;
   flex-wrap: wrap;
 }
-body #container #contact_us .content .left {
+body #contact_us .content .left {
   padding: 2%;
   padding-top: 0px;
   width: 50%;
@@ -388,47 +389,47 @@ body #container #contact_us .content .left {
   grid-template-columns: 1fr 3fr;
   grid-template-rows: auto auto auto;
 }
-body #container #contact_us .content .left h3 {
+body #contact_us .content .left h3 {
   grid-area: 1/1/2/3;
   margin-top: 0px;
   color: darkorange;
 }
-body #container #contact_us .content .left h4 {
+body #contact_us .content .left h4 {
   margin-top: 0px;
 }
-body #container #contact_us .content .left p {
+body #contact_us .content .left p {
   color: gray;
   font-size: 12.5px;
   margin-top: 0px;
 }
-body #container #contact_us .content .left i {
+body #contact_us .content .left i {
   font-size: 30px;
   font-weight: bold;
 }
 @media screen and (max-width: 576px) {
-  body #container #contact_us .content .left {
+  body #contact_us .content .left {
     width: 100%;
   }
 }
-body #container #contact_us .content .right {
+body #contact_us .content .right {
   width: 50%;
   padding: 4%;
   background-color: rgb(242, 241, 241);
   border-radius: 5px;
   box-shadow: 2px 2px 10px 2px rgb(196, 189, 189);
 }
-body #container #contact_us .content .right input {
+body #contact_us .content .right input {
   width: 100%;
   border: none;
   margin-bottom: 5px;
 }
-body #container #contact_us .content .right #name, body #container #contact_us .content .right #email {
+body #contact_us .content .right #name, body #contact_us .content .right #email {
   padding: 10px;
 }
-body #container #contact_us .content .right #message {
+body #contact_us .content .right #message {
   padding: 5px 5px 100px 10px;
 }
-body #container #contact_us .content .right #submit {
+body #contact_us .content .right #submit {
   color: white;
   background-color: darkorange;
   border-radius: 5px;
@@ -436,68 +437,68 @@ body #container #contact_us .content .right #submit {
   margin-top: 20px;
   margin-bottom: -20px;
 }
-body #container #contact_us .content .right #submit:hover {
+body #contact_us .content .right #submit:hover {
   background-color: rgb(255, 168, 38);
 }
 @media screen and (max-width: 576px) {
-  body #container #contact_us .content .right {
+  body #contact_us .content .right {
     width: 100%;
   }
 }
-body #container #footer {
+body #footer {
   display: flex;
   flex-wrap: wrap;
   background-color: black;
   padding: 5% 10%;
   color: gainsboro;
 }
-body #container #footer h3 {
+body #footer h3 {
   text-transform: uppercase;
 }
-body #container #footer h5 {
+body #footer h5 {
   margin-bottom: 0px;
   margin-top: -1px;
 }
-body #container #footer .item {
+body #footer .item {
   width: 25%;
 }
 @media screen and (max-width: 576px) {
-  body #container #footer .item {
+  body #footer .item {
     width: 50%;
   }
 }
-body #container #footer p {
+body #footer p {
   font-size: 14px;
   color: gray;
   width: 50%;
 }
 @media screen and (max-width: 576px) {
-  body #container #footer p {
+  body #footer p {
     width: 100%;
     padding-right: 20px;
   }
 }
-body #container #footer .newsletter p {
+body #footer .newsletter p {
   width: 100%;
 }
 @media screen and (max-width: 576px) {
-  body #container #footer .newsletter {
+  body #footer .newsletter {
     width: 100%;
   }
 }
-body #container #footer input {
+body #footer input {
   padding: 4%;
   border: none;
   border-radius: 2px 0 0 2px;
   width: 70%;
 }
 @media screen and (max-width: 576px) {
-  body #container #footer input {
+  body #footer input {
     width: 35%;
     padding: 3%;
   }
 }
-body #container #footer button {
+body #footer button {
   background-color: rgb(209, 126, 26);
   border-radius: 0 2px 2px 0;
   color: white;
@@ -506,30 +507,215 @@ body #container #footer button {
   width: 30%;
   overflow: hidden;
 }
-body #container #footer button:hover {
+body #footer button:hover {
   background-color: rgb(214, 136, 39);
   cursor: pointer;
 }
 @media screen and (max-width: 576px) {
-  body #container #footer button {
+  body #footer button {
     width: 20%;
     padding: 3%;
   }
 }
-body #container #footer i {
+body #footer i {
   padding: 10px 10px;
   margin-left: 5px;
 }
-body #container #footer .fa-facebook {
+body #footer .fa-facebook {
   background-color: rgb(18, 64, 134);
 }
-body #container #footer .fa-twitter {
+body #footer .fa-twitter {
   background-color: rgb(33, 128, 166);
 }
-body #container #footer .fa-globe {
+body #footer .fa-globe {
   background-color: rgb(189, 74, 93);
 }
-body #container #footer .fa-google-plus {
+body #footer .fa-google-plus {
+  background-color: rgb(214, 74, 49);
+}
+body #testtimonials {
+  background-image: url("../img/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  padding: 5% 0;
+}
+body #testtimonials h2 {
+  color: white;
+}
+body #testtimonials .content {
+  padding: 5px 10px;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+body #testtimonials .content p {
+  color: white;
+  font-size: 12.5px;
+  margin-bottom: 10%;
+}
+body #testtimonials .content .item {
+  padding: 5px 10px;
+}
+body #testtimonials .content img {
+  border-radius: 50%;
+}
+body #testtimonials .content h4 {
+  color: darkorange;
+}
+body #our_blog {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto auto;
+  gap: 15px;
+  margin-top: 5%;
+  padding: 0 10%;
+}
+body #our_blog h2 {
+  grid-area: 1/1/2/4;
+  text-align: center;
+}
+body #our_blog img {
+  width: 100%;
+  border-radius: 3px;
+  margin-bottom: -7px;
+}
+body #our_blog .item:hover {
+  box-shadow: 5px 5px 2px 2px rgb(240, 234, 234);
+}
+body #our_blog .item p {
+  color: gray;
+}
+body #our_blog .content, body #our_blog .item3 {
+  border: 1px solid rgb(224, 224, 235);
+  padding: 0 5%;
+}
+body #our_blog .item3 p {
+  color: darkorange;
+}
+body #our_blog a {
+  color: darkorange;
+  display: block;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+body iframe {
+  width: 100%;
+  margin-top: 5%;
+}
+body #contact_us {
+  padding: 5% 25%;
+}
+body #contact_us h2 {
+  text-align: center;
+}
+body #contact_us .content {
+  display: flex;
+}
+body #contact_us .content .left {
+  padding: 2%;
+  padding-top: 0px;
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto auto auto;
+}
+body #contact_us .content .left h3 {
+  grid-area: 1/1/2/3;
+  margin-top: 0px;
+  color: darkorange;
+}
+body #contact_us .content .left h4 {
+  margin-top: 0px;
+}
+body #contact_us .content .left p {
+  color: gray;
+  font-size: 12.5px;
+  margin-top: 0px;
+}
+body #contact_us .content .left i {
+  font-size: 30px;
+  font-weight: bold;
+}
+body #contact_us .content .right {
+  width: 50%;
+  padding: 4%;
+  background-color: rgb(242, 241, 241);
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px 2px rgb(196, 189, 189);
+}
+body #contact_us .content .right input {
+  width: 100%;
+  border: none;
+  margin-bottom: 5px;
+}
+body #contact_us .content .right #name, body #contact_us .content .right #email {
+  padding: 10px;
+}
+body #contact_us .content .right #message {
+  padding: 5px 5px 100px 10px;
+}
+body #contact_us .content .right #submit {
+  color: white;
+  background-color: darkorange;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: -20px;
+}
+body #contact_us .content .right #submit:hover {
+  background-color: rgb(255, 168, 38);
+}
+body #footer {
+  display: flex;
+  background-color: black;
+  padding: 5% 10%;
+  color: gainsboro;
+}
+body #footer h3 {
+  text-transform: uppercase;
+}
+body #footer h5 {
+  margin-bottom: 0px;
+}
+body #footer .item {
+  width: 25%;
+}
+body #footer p {
+  font-size: 14px;
+  color: gray;
+  padding-top: 0px;
+}
+body #footer input {
+  padding: 10px;
+  border: none;
+  border-radius: 2px 0 0 2px;
+}
+body #footer button {
+  background-color: rgb(209, 126, 26);
+  border-radius: 0 2px 2px 0;
+  border: none;
+  padding: 10px;
+}
+body #footer button:hover {
+  background-color: rgb(214, 136, 39);
+  cursor: pointer;
+}
+body #footer i {
+  padding: 10px 10px;
+  margin-left: 5px;
+}
+body #footer .fa-facebook {
+  background-color: rgb(18, 64, 134);
+}
+body #footer .fa-twitter {
+  background-color: rgb(33, 128, 166);
+}
+body #footer .fa-globe {
+  background-color: rgb(189, 74, 93);
+}
+body #footer .fa-google-plus {
   background-color: rgb(214, 74, 49);
 }
 
