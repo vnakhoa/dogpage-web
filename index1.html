@@ -5,30 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="./css/style1.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/style1.css">
 </head>
 <body>
     <div id="container">
         <!-- How to train -->
         <div id="howtotrain">
             <div class="header_howtotrain">
-                <h4>Dog Home</h4>
-                <div class="link">
+                <h1>Dog Home</h1>
+                <div class="link" id="nav">
                     <a href="">Home</a>
                     <a href="">About Us</a>
                     <a href="">Gallery</a>
-                    <a href="">Dropdown</a>
+                    <ul class="dropdown">
+                        <label for="">Dropdown</label>
+                        <ul class="dropdown_item">
+                            <li><a href="">Blog</a></li>
+                            <li><a href="">What we do</a></li>
+                            <li><a href="" class="last_drop_item">Testimonials</a></li>
+                        </ul>
+                    </ul>
                     <a href="">Contact Us</a>
-                    <a class="menu" href="">Menu</a>
                 </div>
+                <span class="menu" href="">Menu</span>
             </div>
             <div class="main_howtotrain">
                 <h1>How to train your dog</h1>
                 <p>Temporibus soluta, quae magni quasi, illum atque deleniti cumque expedita similique accusamus, amet molestiae tempora.</p>
-                <button>Read More</button>
             </div>
+            <button class="btn_read">Read More</button>
             <div id="label-list">
                 <label for=""></label>
                 <label for=""></label>
@@ -39,14 +46,14 @@
 
         <!-- Welcome -->
         <div id="welcome">
-            <h2>Welcome to Our Website</h2>
+            <h1>Welcome to Our Website</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, eos dolores, non dignissimos repellendus officia inventore fugiat voluptates incidunt officiis sint voluptatibus optio deleniti.</p>
             <img src="./img/about2.jpg" alt="">
         </div>
 
         <!-- What we do -->
         <div id="what_we_do">
-            <h2>What we do</h2>
+            <h1>What we do</h1>
             <div id="container_items">
                 <div class="items">
                     <img src="./img/wh3.jpg" alt="">
@@ -93,7 +100,7 @@
 
         <!-- Our stactics -->
         <div id="our_statics">
-            <h2>Our Statistics</h2>
+            <h1>Our Statistics</h1>
             <div id="content">
                 <div class="infor">
                     <span>8</span>
@@ -117,7 +124,7 @@
         <!-- Pet Services -->
         <div id="pet_services">
             <div id="right">
-                <h2>Pet Services</h2>
+                <h1>Pet Services</h1>
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quia similique re reprehenderit minus.</p>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ex provident officia maiores corrupti dolorem, natus fugit quisquam? Minus, cupiditate reprehenderit tempore, obcaecati est vero eius.</p>
             </div>
@@ -128,28 +135,28 @@
                     <div>
                         <i class="fa fa-expand"></i>
                     </div>
-                    <h4>Gloomming</h4>
+                    <h3>Gloomming</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="item_pet">
                     <div>
                         <i class="fa fa-expand"></i>
                     </div>
-                    <h4>Gloomming</h4>
+                    <h3>Gloomming</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="item_pet">
                     <div>
                         <i class="fa fa-expand"></i>
                     </div>
-                    <h4>Gloomming</h4>
+                    <h3>Gloomming</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
                 <div class="item_pet">
                     <div>
                         <i class="fa fa-expand"></i>
                     </div>
-                    <h4>Gloomming</h4>
+                    <h3>Gloomming</h3>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
             </div>
@@ -157,7 +164,7 @@
 
         <!-- Testimonials -->
         <div id="testtimonials">
-            <h2>Testimonials</h2>
+            <h1>Testimonials</h1>
             <div class="content">
                 <div class="item">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem quod excepturi similique ab exercitationem natus recusandae ipsum.</p>
@@ -179,7 +186,7 @@
 
         <!-- our Blog -->
         <div id="our_blog">
-            <h2>Our Blog</h2>
+            <h1>Our Blog</h1>
             <div class="item item1">
                 <img src="./img/b1.jpg" alt="">
                 <div class="content">
@@ -197,11 +204,11 @@
                 </div>
             </div>
             <div class="item item3">
-                <h4>Lorem ipsum dolor, sit amet conse.Lorem ipsum dolor, sit amet conse.</h4>
+                <h4><a href="">Lorem ipsum dolor, sit amet conse.Lorem ipsum dolor, sit amet conse.</a></h4>
                 <p>Feb 06 2019</p>
-                <h4>Praesentium, dicta, quas mollitia.Lorem ipsum dolor, sit amet conse.</h4>
+                <h4><a href="">Praesentium, dicta, quas mollitia.Lorem ipsum dolor, sit amet conse.</a></h4>
                 <p>Feb 07 2019</p>
-                <h4>Lorem ipsum dolor, sit amet conse.Lorem ipsum dolor, sit amet conse.</h4>
+                <h4><a href="">Lorem ipsum dolor, sit amet conse.Lorem ipsum dolor, sit amet conse.</a></h4>
                 <p>Feb 13 2019</p>
             </div>
         </div>
@@ -210,23 +217,23 @@
 
         <!-- Contact us -->
         <div id="contact_us">
-            <h2>Contact Us</h2>
+            <h1>Contact Us</h1>
             <div class="content">
                 <div class="left">
-                    <h3>Contact Info</h3>
+                    <h2>Contact Info</h2>
                     <i class="fa fa-home"></i>
                     <div class="visit">
-                        <h4>Visit us</h4>
+                        <h3>Visit us</h3>
                         <p>Pama viva Modena, BO, Italy, Lorem ipsum dolor.</p>
                     </div>
                     <i class="fa fa-envelope"></i>
                     <div class="mail">
-                        <h4>Mail us</h4>
+                        <h3>Mail us</h3>
                         <p>infor@example.com</p>
                     </div>
                     <i class="fa fa-phone"></i>
                     <div class="phone">
-                        <h4>Call us</h4>
+                        <h3>Call us</h3>
                         <p>+842154920054</p>
                     </div>
                 </div>
@@ -271,5 +278,7 @@
             </div>
         </div>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
